@@ -1,0 +1,13 @@
+﻿<Window x:Class="Gameboy.StartMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gameboy Start Menu" Height="450" Width="400">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Gameboy Emulator" FontSize="24" FontWeight="Bold" Margin="10"/>
+            <Button Name="btnTicTacToe" Content="Tic Tac Toe" Click="BtnTicTacToe_Click" Margin="5"/>
+            <Button Name="btnMinesweeper" Content="Minesweeper" Click="BtnMinesweeper_Click" Margin="5"/>
+            <Button Name="btnBlackjack" Content="Blackjack" Click="BtnBlackjack_Click" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
