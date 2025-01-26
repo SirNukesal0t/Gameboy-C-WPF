@@ -7,7 +7,7 @@ Spiele:
 2) Minesweeper
 3) Blackjack.
 
-Buggs:
+Bugs:
 Blackjack: Beim drücken von Neu Spielen, werden die Hit und Stand button nicht anklickbar sein
 
 In Plannung:
